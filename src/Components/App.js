@@ -1,10 +1,12 @@
 import "../Styles/App.css";
+import Layout from "./Layout";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <div>Hellow World </div>
-    </div>
+    <Layout>
+      <Home />
+    </Layout>
   );
 }
 

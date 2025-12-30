@@ -1,4 +1,5 @@
 import classes from "../Styles/Account.module.css";
+
 export default function Account(){
     return (
         <div className={classes.account}>
